@@ -1,0 +1,13 @@
+section {
+  background-color: #f6f4f3;
+}
+
+#header-info,
+#footer-info {
+  font-size: 2.5rem;
+}
+
+#li-tech-stack {
+  width: 168px;
+  vertical-align: middle;
+}

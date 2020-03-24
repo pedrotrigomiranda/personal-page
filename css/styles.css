@@ -64,6 +64,15 @@ section {
   padding-left: 60px;
 }
 
+#projects-container figure {
+  width: 220px;
+  height: 220px;
+}
+
+#project-desc {
+  font-size: 2rem;
+}
+
 #counter,
 #navigation a {
   color: black !important;
@@ -281,7 +290,7 @@ figure.effect-sarah img {
 }
 
 figure.effect-sarah:hover img {
-  opacity: 0.4;
+  opacity: 0.2;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }

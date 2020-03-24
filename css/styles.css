@@ -42,6 +42,9 @@ section {
   padding-bottom: 20px;
 }
 
+#footer-info {
+  padding-bottom: 40px;
+}
 #logo-container {
   display: flex;
   padding-top: 20px;
@@ -71,6 +74,31 @@ section {
 
 #project-desc {
   font-size: 2rem;
+}
+
+#links-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+  justify-content: center;
+}
+
+#link-logo {
+  display: flex;
+  align-items: center;
+}
+
+#photo-container {
+  background-color: #f6f4f3;
+}
+
+#photo {
+  width: 80.8%;
+  height: auto;
+}
+
+#about {
+  margin-left: 60px;
 }
 
 #counter,

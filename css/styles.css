@@ -77,10 +77,11 @@ section {
 }
 
 #links-container {
+  width: 480px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
-  column-gap: 80px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 #link-logo {
@@ -246,7 +247,6 @@ body {
   display: block;
   min-height: 100%;
   max-width: 100%;
-  /*opacity: 0.8;*/
 }
 
 .grid figure figcaption {
@@ -272,8 +272,6 @@ body {
   height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
 .grid figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
@@ -283,7 +281,6 @@ body {
 }
 
 .grid figure h2 {
-  /*word-spacing: -0.15em;*/
   font-weight: 300;
 }
 

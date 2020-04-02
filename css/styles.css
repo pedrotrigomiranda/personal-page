@@ -1,5 +1,12 @@
+:root {
+  /* #f6f4f3 */
+  --bg-color: #daffef;
+  --secondary-color: #e72929;
+  --third-color: #5a9c97;
+}
+
 section {
-  background-color: #f6f4f3;
+  background-color: var(--bg-color);
   padding-top: 60px !important;
 }
 
@@ -13,17 +20,19 @@ section {
 
 #slide-subtitle {
   font-size: 2.5rem;
+  color: var(--third-color);
+  font-weight: bolder;
 }
 
 #curly-brace,
 #slash {
   font-size: 6.5rem;
-  color: purple;
+  color: var(--secondary-color);
   font-weight: bolder;
 }
 
 #home {
-  color: purple;
+  color: var(--secondary-color);
 }
 
 #about-container {
@@ -90,7 +99,7 @@ section {
 }
 
 #photo-container {
-  background-color: #f6f4f3;
+  background-color: var(--bg-color);
 }
 
 #photo {
@@ -108,7 +117,7 @@ section {
 }
 
 #webslides:hover #navigation a:hover {
-  background-color: purple !important;
+  background-color: var(--secondary-color) !important;
   color: var(--bg-color);
 }
 
@@ -116,16 +125,12 @@ section {
 
 /* title styles */
 
-:root {
-  --bg-color: #f6f4f3;
-}
-
 body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
   color: #000;
-  background-color: purple;
+  background-color: var(--secondary-color);
 }
 
 .home-title {
@@ -211,7 +216,7 @@ body {
   left: 51%;
   right: 51%;
   bottom: 0px;
-  background: purple;
+  background: var(--secondary-color);
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -299,7 +304,7 @@ body {
 }
 
 figure.effect-sarah {
-  background: purple;
+  background: var(--secondary-color);
 }
 
 figure.effect-sarah img {
